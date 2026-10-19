@@ -36,5 +36,5 @@ return 1 + x + (pow(x,2))/2 + (pow(x,3))/3 + (pow(x,4))/4;
 
 double B(const double x, const double y)
 {
-return x*(sin(pow(x, 3)) + cos(pow(y,2)));
+return x*(sin(pow(x, 3)) + pow(cos(y), 2));
 }
