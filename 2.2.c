@@ -1,11 +1,21 @@
 #include <stdio.h>
 #include <math.h>
 #include <stdlib.h>
-
+/**
+ * @brief Считывает с клавиатуры занчение с плавающей точкой
+ * @return Считанное значение
+ */
 double getDouble();
-
+/**
+ * @brief Вычисляет периметр треугольника
+ * @param side1 и side2 катеты
+ * @return Рассчитанное значение
+ */
 double y(const double x);
-
+/**
+ * @brief Точка входа в программу
+ * @return 0, если программа выполнена корректно, иначе не 0
+ */
 int main()
 {
     printf("Enter x: ");
